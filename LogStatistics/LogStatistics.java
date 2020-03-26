@@ -63,7 +63,7 @@ public class LogStatistics {
 				return;
 			}
 			BufferedReader reader = null;
-			PrintWriter writer = new PrintWriter(new File(path + "\\estadisticos.txt"));
+			PrintWriter writer = new PrintWriter(new File(path + "\\statistics.txt"));
 			
 			HashMap<String, Integer> serverTypes = new HashMap<String, Integer>();
 			HashMap<String, Integer> cuentasEmisoras = new HashMap<String, Integer>();
