@@ -16,6 +16,8 @@ import java.util.regex.Matcher;
 
 public class LogStatistics {
 	
+	// Prueba
+
 	HashMap<String, HashMap<String, Integer>> tableMSA = new HashMap<String, HashMap<String, Integer>>();
 	HashMap<String, HashMap<String, Integer>> tableSCI = new HashMap<String, HashMap<String, Integer>>();
 	HashMap<String, HashMap<String, Integer>> tableSCO = new HashMap<String, HashMap<String, Integer>>();
